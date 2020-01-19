@@ -1,0 +1,35 @@
+#window {
+    width: 800px;
+    height: 600px;
+    border: 2px;
+    border-color: black;
+    background-color: lemonchiffon;
+    display: flex;
+    flex-wrap: wrap;
+}
+#topic{
+    background-color: burlywood;
+    width: 800px;
+    height: 70px;
+}
+#chat_list{
+    width: 150px;
+    height: 530px;
+    background-color: lightblue;
+}
+#chat{
+    width: 650px;
+    height: 530px;
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+#message{
+    background-color: mediumspringgreen;
+}
+#message_content{
+    height: 40px;
+    background-color: limegreen;
+}
+
